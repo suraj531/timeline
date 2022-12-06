@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.date {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+}
+.description {
+  color: darkslategray;
+  font-size: 16px;
+  font-family: 'roboto';
+}
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'roboto';
+}
+.image {
+  width: 100%;
+  height: 300px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+}

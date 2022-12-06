@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.unorder {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list {
+  list-style-type: none;
+}
+.list-item {
+  color: #1e293b;
+  background-color: lightgray;
+  padding: 6px;
+  font-weight: bold;
+  margin: 10px;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 1000;
+}
+.date {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.icon {
+  height: 15px;
+  width: 15px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+.description {
+  color: darkslategray;
+  font-size: 16px;
+  font-family: 'roboto';
+}
